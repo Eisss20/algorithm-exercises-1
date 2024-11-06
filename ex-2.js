@@ -1,6 +1,20 @@
 function runningSum(arr) {
-  //Start coding here
+  let result = [];
+
+  arr.reduce((acc, cur) => {
+    acc += cur;
+    result.push(acc);
+    return acc;
+  }, 0);
+
+  return result;
 }
+// ------------------------ //
+//รอบแรก 1+0 = 1
+//รอบสอง 1+2 = 3
+//รอบสาม 3+3 = 6
+//รอบสาม 6+4 = 10
+// ------------------------ //
 
 let result1 = runningSum([1, 2, 3, 4]);
 let result2 = runningSum([3, 1, 2, 10, 1]);

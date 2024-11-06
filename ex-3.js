@@ -1,5 +1,5 @@
 function singleNumber(nums) {
-  // Start coding here
+  
 }
 
 let result1 = singleNumber([2, 2, 1]);

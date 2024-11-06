@@ -1,5 +1,5 @@
 function findOdd(nums) {
-  // Start coding here
+  let result = {}
 }
 
 let result1 = findOdd([0]);
